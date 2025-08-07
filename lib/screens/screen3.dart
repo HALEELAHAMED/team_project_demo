@@ -5,6 +5,13 @@ class Screen3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('Screen three'),),);
+    return Scaffold(
+      body: Container(
+        width: 200,
+        height: 200,
+        color: Colors.green,
+        child: Center(child: Text('Screen three')),
+      ),
+    );
   }
 }
